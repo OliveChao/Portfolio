@@ -5,11 +5,12 @@ FrontEndDevelopment SkillSet Category
 ************************************
 ************************************
 
+WELCOOOOOOOOOOOOOME!!!
 Here Are Some Quotes I Like
 ---------------------------
 
 "The designer does not begin with some preconceived idea.
-Rather, the ideas is the result of careful study and observation, and the design a product of that idea" - PAUL RAND
+Rather, the idea is the result of careful study and observation, and the design a product of that idea" - PAUL RAND
 
 ..........................................
 
