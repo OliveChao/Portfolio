@@ -15,12 +15,12 @@ $sent = mail($recipient, $subject, $formcontent, $mailheader);
 if($sent){
  echo "<span style='color:green; font-weight:bold;'>
  Thank you for contacting me, I will get back to you shortly.
- </span>";
+ </span><a href='index.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
 }
 else{
  echo "<span style='color:red; font-weight:bold;'>
  Sorry! Your form submission has failed!
- </span>";
+ </span><a href='index.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
  }
 }
 // echo "Thank You!" . " -" . "<a href='index.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
