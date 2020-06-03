@@ -8,19 +8,19 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	
-	<title>Victor Salamba::Relationship Coach</title>
-	
+
+	<title>Victor Salamba | Relationship Coach</title>
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
+
 	<meta name="description" content="A Profile Website that features content for Victor Salamba, a Relationship Coach, and the services his Relationship Coaching Firm, Awakening Minds, offers." />
-    
+
     <meta name="keywords" content="victor salamba, relationships, relationship coach, relationship coaching, counselling, individual counselling, couple counselling, marriage, radio waumini, reflections, victor salamba's reflections, bible, bible class, bible study" />
-    
+
     <meta name="authors" content="Olive Chao and Alvaro Nabangi" />
     <meta name="copyright" content="&copy; Victor Salamba" />
-	
+
 	<!-- Bootstrap Core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet" />
 
@@ -77,7 +77,7 @@
 							<a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">About <i class="fa fa-angle-down"></i></a>
                             <!-- <ul class="dropdown-menu">
                                 <li><a href="index.html">Me</a></li>
-                                <li><a href="index2.html">Awakening Minds</a></li>								
+                                <li><a href="index2.html">Awakening Minds</a></li>
                             </ul> -->
 						</li>
 
@@ -98,13 +98,13 @@
 										<li><a href="404.html">404</a></li>
 										<li><a href="register.html">Register</a></li>
 										<li><a href="login.html">Login</a></li>
-									</ul>	
+									</ul>
 								</li>
                             </ul> -->
                         </li>
-                        
+
                         <li><a href="#news">Broadcast</a></li>
-                        
+
                         <li class="dropdown"><a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Blog <i class="fa fa-angle-down"></i></a>
 							<!-- <ul class="dropdown-menu">
                                 <li><a href="blog-rightsidebar.html">Blog right sidebar</a></li>
@@ -113,14 +113,14 @@
 								<li><a href="post-leftsidebar.html">Post left sidebar</a></li>
                             </ul> -->
 						</li>
-                        
-                        <li><a href="#contact">Contact</a></li>
+
+                        <li><a href="#contact">Contact Me</a></li>
                     </ul>
                 </div>
             </div>
         </div>
 	</header>
-	
+
 	<!-- #region Jssor Slider Begin -->
     <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
     <script src="js/jssor-main-slider.js" type="text/javascript"></script>
@@ -275,7 +275,7 @@
 		</div>
 
 		<br clear="all">
-	</section> 
+	</section>
 
 	<section id="news">
 		<div class="newsTitle col-md-12">
@@ -433,14 +433,17 @@
 
 		<div class="contact-details col-md-12">
 			<div class="contact-form col-md-8">
-				<form class="full-width">
-					<input type="text" name="Name" placeholder="Your 2 Names Please:)" required=""><br>
+				<form action="mail.php" method="POST" class="full-width" >
+					<input type="text" name="name" placeholder="John Doe" required=""><br>
 
-					<input type="phonenumber" name="Number" placeholder="Your Phone Number Please:)" required=""><br>
+					<input type="phonenumber" name="number" placeholder="+254 700000000" required=""><br>
+
+					<input type="email" name="email" placeholder="johndoe@me.com" required=""><br>
 
 					<textarea name="message" placeholder="Write Your Message To Me Here and I will Respond To It As Soon As I Can:)"></textarea><br>
 
-					<input type="submit" name="Send Message" class="btn-submit">
+					<input type="submit" name="Send" class="btn-submit">
+					<!-- <input type="reset" value="Clear"> -->
 				</form>
 			</div>
 
@@ -483,7 +486,7 @@
 				<h6>Parents</h6>
 				<h6>Children</h6>
 			</div>
-			
+
 			<div class="col-md-3">
 				<h3>Speaker Services</h3>
 				<h6>Co-orporate Workshops</h6>
@@ -499,7 +502,7 @@
 				<h6>Books</h6>
 				<h6>Audios</h6>
 			</div>
-			
+
 			<div class="col-md-3">
 				<h3>Our Links</h3>
 				<h6>Home</h6>
@@ -515,13 +518,13 @@
 				PROCMURA Centre, 1st Floor, Awakening Minds<br>
 				Sports Road, Westlands.
 			</div>
-			
+
 			<div class="officeNumbers col-md-3">
 				CALL | SMS | WHATSAPP<br>
 				+254 748 330 300.<br>
 				+254 731 062 571.
 			</div>
-			
+
 			<div class="mySocials col-md-3">
 				<ul>
 					<li>
@@ -536,12 +539,12 @@
 					</li>
 					<li>
 						<a href="https://twitter.com/victorsalamba">
-							<i class="fa fa-twitter"></i>	
+							<i class="fa fa-twitter"></i>
 						</a>
 					</li>
 					<li>
 						<a href="https://ke.linkedin.com/in/coach-victor-salamba">
-							<i class="fa fa-linkedin"></i>					
+							<i class="fa fa-linkedin"></i>
 						</a>
 					</li>
 				</ul>
@@ -554,7 +557,7 @@
 
 		<div id="footer-copyright" class="col-md-12">
 			<p>
-				Victor Salamba 2020. All Rights Reserved 
+				Victor Salamba 2020. All Rights Reserved
 			</p>
 		</div>
 
@@ -581,7 +584,7 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 <!-- Others -->
-<script src="plugins/flexslider/jquery.flexslider-min.js"></script> 
+<script src="plugins/flexslider/jquery.flexslider-min.js"></script>
 <script src="plugins/flexslider/flexslider.config.js"></script>
 <script src="js/jquery.appear.js"></script>
 <script src="js/stellar.js"></script>
